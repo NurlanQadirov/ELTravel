@@ -15,7 +15,7 @@ const AboutSection = () => (
             </p>
           </div>
           <div className="relative overflow-hidden rounded-2xl shadow-xl">
-            <img src="/public/Turizm.jpg" alt="About Us"
+            <img src="/Turizm.jpg" alt="About Us"
               className="rounded-2xl w-full h-80 md:h-96 object-cover transition-transform duration-500 hover:scale-110"/>
           </div>
         </div>

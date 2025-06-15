@@ -4,14 +4,14 @@ import { Camera } from 'lucide-react';
 const GallerySection = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const galleryImages = [
-    "/public/Galery.jpg",
+    "/Galery.jpg",
     "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1",
-    "/public/Galery3.jpg",
+    "/Galery3.jpg",
     "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
     "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
     "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
     "https://images.unsplash.com/photo-1504893524553-b855bce32c67",
-    "/public/Galery2.jpg"
+    "/Galery2.jpg"
   ];
 
   return (

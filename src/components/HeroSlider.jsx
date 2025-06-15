@@ -7,7 +7,7 @@ const HeroSlider = () => {
   const navigate = useNavigate();
   const slides = [
     {
-      image: "/public/Baku.jpg",
+      image: "/Baku.jpg",
       title: "Möhtəşəm Azərbaycanı Kəşf Edin",
       subtitle: "Odlar Yurdunun Qədim Gözəllikləri",
       path: "/discover-azerbaijan"

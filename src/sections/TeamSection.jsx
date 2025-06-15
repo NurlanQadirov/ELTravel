@@ -4,7 +4,7 @@
 const TeamSection = () => {
     const team = [
       { name: "Anar Məmmədov", position: "Təsisçi & CEO", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" },
-      { name: "Leyla Həsənova", position: "Tur Meneceri", image: "/public/Team.jpg" },
+      { name: "Leyla Həsənova", position: "Tur Meneceri", image: "/Team.jpg" },
       { name: "Rəşad Əliyev", position: "Baş Bələdçi", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" },
       { name: "Nigar Səfərova", position: "Müştəri Əlaqələri", image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" }
     ];
