@@ -19,7 +19,7 @@ const HeroSlider = () => {
       path: "/explore-world"
     },
      {
-    image: "/public/Baku2.jpg",
+    image: "/Baku2.jpg",
     title: "Alov Qüllələrinin Möhtəşəmliyi",
     subtitle: "Bakının Müasir Memarlıq Möcüzəsi",
     path: "/flame-towers-baku"
