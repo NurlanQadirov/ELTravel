@@ -17,9 +17,9 @@ const App = () => {
   return (
     <Router>
       <GlobalStyles />
-      <div className="min-h-screen bg-white">
+      <div className="w-full overflow-x-hidden">
         <Header />
-        <main>
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<div className="pt-24"><AboutSection /></div>} />

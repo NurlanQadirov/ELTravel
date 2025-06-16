@@ -53,9 +53,13 @@ const Header = () => {
       { code: 'AR', name: 'العربية' },
   ];
   
-  useEffect(() => {
-    document.body.style.overflow = isMenuOpen ? 'hidden' : 'auto';
-  }, [isMenuOpen]);
+ useEffect(() => {
+  if (isMenuOpen) {
+    document.documentElement.classList.add('overflow-hidden');
+  } else {
+    document.documentElement.classList.remove('overflow-hidden');
+  }
+}, [isMenuOpen]);
 
   const [mobileSubMenu, setMobileSubMenu] = useState(null);
   const toggleMobileSubMenu = (menu) => {
@@ -146,6 +150,12 @@ const Header = () => {
 
       {/* DÜZƏLİŞ: Mobil menyu paneli və onun açılma/bağlanma animasiyası */}
       <div className={`lg:hidden fixed inset-0 bg-white z-[65] transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+         {/* Bağlama düyməsi əlavə edildi */}
+  <div className="flex justify-end px-4 pt-6">
+    <button onClick={() => setIsMenuOpen(false)} className="text-gray-800 hover:text-red-600">
+      <X size={28} />
+    </button>
+  </div>
           <nav className="pt-24 px-8 h-full overflow-y-auto">
               <Link to="/" onClick={() => setIsMenuOpen(false)} className="block py-3 text-lg font-medium text-gray-800 hover:text-blue-600">Home</Link>
               <Link to="/about" onClick={() => setIsMenuOpen(false)} className="block py-3 text-lg font-medium text-gray-800 hover:text-blue-600">About Us</Link>

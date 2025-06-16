@@ -26,7 +26,7 @@ const Footer = () => (
             <h3 className="text-lg font-semibold mb-6">Faydalı Keçidlər</h3>
             <ul className="space-y-3">
               <li><Link to="/about" className="text-gray-400 hover:text-white">Haqqımızda</Link></li>
-              <li><Link to="/services/hotels" className="text-gray-400 hover:text-white">Xidmətlər</Link></li>
+              {/* <li><Link to="/section/gallery" className="text-gray-400 hover:text-white">Gallery</Link></li> */}
               <li><Link to="/tours/baku" className="text-gray-400 hover:text-white">Daxili Turlar</Link></li>
               <li><Link to="/international/turkey" className="text-gray-400 hover:text-white">Xarici Turlar</Link></li>
             </ul>
