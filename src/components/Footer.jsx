@@ -7,18 +7,18 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => (
   <footer className="bg-gray-900 text-white pt-16 pb-10">
     <div className="container mx-auto px-6">
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-x-10 gap-y-12 mb-12">
-
-        {/* Şirkət Məlumatı */}
-        <div className="md:col-span-1">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-12 mb-12">
+        
+        {/* 1. Şirkət məlumatı */}
+        <div>
           <h2 className="text-2xl font-bold mb-4">EL-Travel</h2>
           <p className="text-gray-400 leading-relaxed max-w-sm">
             Azərbaycanda və dünyada unudulmaz təcrübələr təqdim edən, müştəri məmnuniyyətini ön planda tutan etibarlı səyahət agentliyiniz. Fərdi və qrup turlarımızla hər kəsə uyğun səyahət imkanları yaradırıq.
           </p>
         </div>
 
-        {/* Menyu */}
-        <div className="pl-20">
+        {/* 2. Menyu */}
+        <div className="sm:pl-4 md:pl-10">
           <h3 className="text-lg font-semibold mb-4">Menyu</h3>
           <ul className="space-y-2 text-gray-400">
             <li><Link to="/" className="hover:text-white">Ana Səhifə</Link></li>
@@ -29,8 +29,8 @@ const Footer = () => (
           </ul>
         </div>
 
-        {/* Turlar */}
-        <div className="pl-8">
+        {/* 3. Turlar */}
+        <div className="sm:pl-4 md:pl-10">
           <h3 className="text-lg font-semibold mb-4">Turlar</h3>
           <ul className="space-y-2 text-gray-400">
             <li><Link to="/tours/baku" className="hover:text-white">Daxili Turlar</Link></li>
@@ -39,8 +39,8 @@ const Footer = () => (
           </ul>
         </div>
 
-        {/* Əlaqə və Sosial Media */}
-        <div className="pl-2">
+        {/* 4. Əlaqə və Sosial Media */}
+        <div className="sm:pl-4 md:pl-10">
           <h3 className="text-lg font-semibold mb-4">Əlaqə</h3>
           <div className="space-y-3 text-gray-400 mb-4">
             <div className="flex items-start space-x-3">
@@ -71,10 +71,9 @@ const Footer = () => (
             </a>
           </div>
         </div>
-
       </div>
 
-      {/* Aşağı Qeyd */}
+      {/* Alt qeyd */}
       <div className="border-t border-gray-800 pt-6 text-center">
         <p className="text-gray-500 text-sm">
           © {new Date().getFullYear()} EL-Travel. Bütün hüquqlar qorunur.
