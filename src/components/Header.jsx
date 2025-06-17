@@ -154,7 +154,7 @@ const Header = () => {
       </header>
 
       {/* DÜZƏLİŞ: Mobil menyu paneli və onun açılma/bağlanma animasiyası */}
-      <div className={`lg:hidden fixed inset-0 bg-white z-[65] transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+      <div className={`lg:hidden fixed inset-0 bg-white z-[65] transition-transform duration-500 ease-in-out ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="flex justify-end px-4 pt-6">
   <button onClick={() => setIsMenuOpen(false)} className="text-gray-800 hover:text-red-600">
     <X size={28} />

@@ -6,7 +6,7 @@ const AboutSection = () => (
       <div className="grid md:grid-cols-2 gap-12 items-center">
         {/* Sol tərəf - yazı */}
         <div className="transform transition-all duration-1000 ease-out translate-y-6 opacity-0 animate-fade-in-up">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Şirkət Adı Haqqında</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Şirkət Haqqında</h2>
           <p className="text-lg text-gray-600 mb-6 leading-relaxed">
             Azərbaycanda və onun hüdudlarından kənarda müstəsna səyahət təcrübələri üçün əsas ünvanınız olan şirkətimizə xoş gəlmisiniz. 
             Turizm sənayesində uzun illər təcrübəmizlə biz ölkəmizin gözəlliyini, mədəniyyətini və macərasını nümayiş etdirən unudulmaz səyahətlər yaratmaqda ixtisaslaşmışıq.
