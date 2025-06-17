@@ -9,8 +9,8 @@ const TourCategories = () => {
     },
     {
       title: "Xarici Turlar",
-      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      description: "Beynəlxalq paketlərimizlə dünyanı kəşf edin."
+      image: "/xariciTur.jpg",
+      description: "Dünyanı kəşf edin."
     },
     {
       title: "Ov Turları",
@@ -33,27 +33,27 @@ const TourCategories = () => {
           {categories.map((category, index) => (
             <div
               key={index}
-              className="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-700 ease-in-out transform hover:-translate-y-1"
+              className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 cursor-pointer"
             >
               {/* Şəkil */}
               <img
                 src={category.image}
                 alt={category.title}
-                className="w-full h-80 object-cover transition-transform duration-700 ease-in-out group-hover:scale-105"
-                loading="lazy"
+                className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
               />
 
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent transition-opacity duration-700" />
-
-              {/* Başlıq (Həmişə görünür) */}
+              {/* Başlıq (həmişə görünür) */}
               <div className="absolute top-6 left-6 z-10">
-                <h3 className="text-2xl font-bold text-white drop-shadow-lg">{category.title}</h3>
+                <h3 className="text-2xl font-bold text-white drop-shadow-lg font-serif italic tracking-wide">
+                  {category.title}
+                </h3>
               </div>
 
-              {/* Açıklama (Hover zamanı görünür) */}
-              <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-in-out bg-black/70 text-white">
-                <p className="text-sm leading-relaxed">{category.description}</p>
+              {/* Açıklama (hover zamanı görünür) */}
+              <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-in-out text-white">
+                <p className="text-sm leading-relaxed font-light tracking-wide">
+                  {category.description}
+                </p>
               </div>
             </div>
           ))}

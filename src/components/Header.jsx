@@ -29,7 +29,12 @@ const Header = () => {
   ];
 
   const domesticTourRegions = [
-    { name: "Bakı & Abşeron", path: "/tours/baku", subTours: [
+    { name: "Bakı", path: "/tours/baku", subTours: [
+        { name: "Qobustan Turu", path: "/tours/qobustan" },
+        { name: "Yanardağ Turu", path: "/tours/yanardag" },
+        { name: "Atəşgah Turu", path: "/tours/ateshgah" },
+    ]},
+    { name: "Bakı Ətrafı", path: "/tours/baku", subTours: [
         { name: "Qobustan Turu", path: "/tours/qobustan" },
         { name: "Yanardağ Turu", path: "/tours/yanardag" },
         { name: "Atəşgah Turu", path: "/tours/ateshgah" },
