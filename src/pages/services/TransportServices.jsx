@@ -72,7 +72,6 @@ const TransportServices = () => {
             {/* Şəkil və fon */}
             <div
               className="w-full h-full bg-cover bg-center group-hover:brightness-75 transition duration-500"
-              style={{ backgroundImage: 'url(/transport.jpg)' }}
             ></div>
             <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-blue-800/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
           </div>
