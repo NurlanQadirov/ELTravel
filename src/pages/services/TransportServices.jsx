@@ -1,22 +1,22 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Bus, MapPinned, CheckCircle, Car, CalendarCheck, PhoneCall } from 'lucide-react';
+import { Bus, MapPinned, Car, CalendarCheck, PhoneCall } from 'lucide-react';
 
 const transportOptions = [
   {
     title: "Şəxsi Transfer",
-    icon: <Bus className="w-10 h-10" />, 
+    icon: <Bus className="w-10 h-10" />,
     description: "Fərdi və qrup transferləri üçün rahat və təhlükəsiz nəqliyyat vasitələri."
   },
   {
     title: "VIP Avtomobillər",
-    icon: <Car className="w-10 h-10" />, 
+    icon: <Car className="w-10 h-10" />,
     description: "Lüks avtomobillərlə xüsusi qonaqlar üçün yüksək səviyyəli xidmət."
   },
   {
     title: "Şəhər Daxili Turlar",
-    icon: <MapPinned className="w-10 h-10" />, 
+    icon: <MapPinned className="w-10 h-10" />,
     description: "Bakı və ətraf ərazilərdə komfortlu turlar üçün nəqliyyat təminatı."
   }
 ];
@@ -56,18 +56,24 @@ const TransportServices = () => {
             className="relative bg-white rounded-2xl shadow-xl overflow-hidden group cursor-pointer transform transition-transform duration-500 hover:scale-105"
             style={{ height: "300px" }}
           >
-            <div className="absolute inset-0 z-10 flex flex-col items-center justify-end p-5 text-center transition-all duration-700 group-hover:pt-8 group-hover:pb-4">
-              <div className="text-blue-600 group-hover:text-white transition-all duration-700 mb-2 transform group-hover:-translate-y-6 group-hover:opacity-100 opacity-100">
+            {/* MƏRKƏZƏ YERLƏŞDİRİLMİŞ MƏTN VƏ İKONLAR */}
+            <div className="absolute inset-0 z-10 flex flex-col items-center justify-center p-5 text-center transition-all duration-700">
+              <div className="text-blue-600 group-hover:text-white transition-all duration-700 mb-2 transform group-hover:-translate-y-3 group-hover:opacity-100 opacity-100">
                 {item.icon}
               </div>
-              <h3 className="text-lg font-semibold text-gray-800 group-hover:text-white transition-all duration-700 transform group-hover:-translate-y-6 group-hover:opacity-100 opacity-100">
+              <h3 className="text-lg font-semibold text-gray-800 group-hover:text-white transition-all duration-700 transform group-hover:-translate-y-3 group-hover:opacity-100 opacity-100">
                 {item.title}
               </h3>
-              <p className="text-sm text-gray-600 group-hover:text-white transition-all duration-700 transform group-hover:-translate-y-6 group-hover:opacity-100 opacity-100 mt-2">
+              <p className="text-sm text-gray-600 group-hover:text-white transition-all duration-700 transform group-hover:-translate-y-3 group-hover:opacity-100 opacity-100 mt-2">
                 {item.description}
               </p>
             </div>
-            <div className="w-full h-full bg-cover bg-center group-hover:brightness-75 transition duration-500" style={{ backgroundImage: 'url(/transport.jpg)' }}></div>
+
+            {/* Şəkil və fon */}
+            <div
+              className="w-full h-full bg-cover bg-center group-hover:brightness-75 transition duration-500"
+              style={{ backgroundImage: 'url(/transport.jpg)' }}
+            ></div>
             <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-blue-800/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
           </div>
         ))}
@@ -77,9 +83,14 @@ const TransportServices = () => {
         <h2 className="text-3xl font-bold text-white-900 mb-6 text-center">Xidmət Prosesi</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {extraSteps.map((step, index) => (
-            <div key={index} className="bg-white shadow-md p-6 rounded-xl text-center group transition duration-700 ease-in-out hover:bg-blue-600">
+            <div
+              key={index}
+              className="bg-white shadow-md p-6 rounded-xl text-center group transition duration-700 ease-in-out hover:bg-blue-600"
+            >
               <div className="flex justify-center">{step.icon}</div>
-              <h3 className="font-semibold text-lg mb-2 text-gray-800 group-hover:text-white">{step.title}</h3>
+              <h3 className="font-semibold text-lg mb-2 text-gray-800 group-hover:text-white">
+                {step.title}
+              </h3>
               <p className="text-sm text-gray-600 group-hover:text-white">
                 {step.description}
               </p>

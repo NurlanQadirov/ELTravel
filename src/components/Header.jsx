@@ -20,6 +20,8 @@ const Header = () => {
       setActiveMenu(null);
     }, 200);
   };
+
+  
   
   const serviceItems = [
     { name: "Hotels", path: "/services/hotels", icon: <Building size={16} /> },
@@ -125,7 +127,7 @@ const Header = () => {
                   )}
                 </div>
 
-                <Link to="/hunting-tour" className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Hunting Tour</Link>
+                <Link to="/services/huntingtour" className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Hunting Tour</Link>
                 <Link to="/team" className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Our Team</Link>
                 <Link to="/gallery" className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Gallery</Link>
                 <Link to="/contact" className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Contact</Link>

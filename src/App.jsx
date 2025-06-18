@@ -16,6 +16,8 @@ import HotelsPage from './pages/services/HotelsPage';
 import VillaAndCottages from './pages/services/VillaAndCottages';
 import GuideServices from './pages/services/GuideServices';
 import TransportServices from './pages/services/TransportServices'
+import HuntingTour from './pages/services/HuntingTour'
+
 
 const App = () => {
   return (
@@ -30,17 +32,21 @@ const App = () => {
             <Route path="/team" element={<div className="pt-24"><TeamSection /></div>} />
             <Route path="/gallery" element={<div className="pt-24"><GallerySection /></div>} />
             <Route path="/contact" element={<ContactPage />} />
-
-            {/* Placeholder Pages */}
-            <Route path="/hunting-tour" element={<PlaceholderPage title="Ov Turları" />} />
-            <Route path="/international/turkey" element={<PlaceholderPage title="Türkiyə Turları" />} />
-            <Route path="/international/europe" element={<PlaceholderPage title="Avropa Turları" />} />
-            <Route path="/international/uae" element={<PlaceholderPage title="BƏƏ Turları" />} />
-            <Route path="/international/asia" element={<PlaceholderPage title="Asiya Turları" />} />
             <Route path="/services/villas" element={<VillaAndCottages />} /> 
             <Route path="/services/hotels" element={<HotelsPage />} />
             <Route path="/services/guides" element={<GuideServices />} />
             <Route path="/services/transport" element={<TransportServices />} />
+            <Route path="/services/huntingtour" element={<HuntingTour />} />
+         
+
+
+            {/* Placeholder Pages */}
+            <Route path="/international/turkey" element={<PlaceholderPage title="Türkiyə Turları" />} />
+            <Route path="/international/europe" element={<PlaceholderPage title="Avropa Turları" />} />
+            <Route path="/international/uae" element={<PlaceholderPage title="BƏƏ Turları" />} />
+            <Route path="/international/asia" element={<PlaceholderPage title="Asiya Turları" />} />
+           
+        
             <Route path="/tours/baku" element={<PlaceholderPage title="Bakı Turları" />} />
             <Route path="/tours/quba" element={<PlaceholderPage title="Quba Turları" />} />
             <Route path="/tours/qabala" element={<PlaceholderPage title="Qəbələ Turları" />} />

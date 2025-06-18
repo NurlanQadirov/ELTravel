@@ -23,7 +23,7 @@ const TourCategories = () => {
     <section id="tour-categories" className="py-16 md:py-20 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Tur Kateqoriyaları</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-4">Tur Kateqoriyaları</h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
             Hər növ səyyah üçün nəzərdə tutulmuş müxtəlif tur paketlərimizdən seçin.
           </p>

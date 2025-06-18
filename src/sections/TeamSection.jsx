@@ -13,7 +13,7 @@ const TeamSection = () => {
       <section id="our-team" className="py-16 md:py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Bizim Komanda</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-4">Bizim Komanda</h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">Səyahət arzularınızı gerçəkləşdirən peşəkar komandamızla tanış olun.</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
