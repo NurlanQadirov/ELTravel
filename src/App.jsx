@@ -12,6 +12,10 @@ import PlaceholderPage, { ContactPage } from './pages/PlaceholderPage';
 import AboutSection from './sections/AboutSection';
 import TeamSection from './sections/TeamSection';
 import GallerySection from './sections/GallerySection';
+import HotelsPage from './pages/services/HotelsPage';
+import VillaAndCottages from './pages/services/VillaAndCottages';
+import GuideServices from './pages/services/GuideServices';
+import TransportServices from './pages/services/TransportServices'
 
 const App = () => {
   return (
@@ -33,10 +37,10 @@ const App = () => {
             <Route path="/international/europe" element={<PlaceholderPage title="Avropa Turları" />} />
             <Route path="/international/uae" element={<PlaceholderPage title="BƏƏ Turları" />} />
             <Route path="/international/asia" element={<PlaceholderPage title="Asiya Turları" />} />
-            <Route path="/services/hotels" element={<PlaceholderPage title="Hotel Booking" />} />
-            <Route path="/services/villas" element={<PlaceholderPage title="Villa and Cottages" />} />
-            <Route path="/services/guide" element={<PlaceholderPage title="Guide Service" />} />
-            <Route path="/services/transport" element={<PlaceholderPage title="Transport" />} />
+            <Route path="/services/villas" element={<VillaAndCottages />} /> 
+            <Route path="/services/hotels" element={<HotelsPage />} />
+            <Route path="/services/guides" element={<GuideServices />} />
+            <Route path="/services/transport" element={<TransportServices />} />
             <Route path="/tours/baku" element={<PlaceholderPage title="Bakı Turları" />} />
             <Route path="/tours/quba" element={<PlaceholderPage title="Quba Turları" />} />
             <Route path="/tours/qabala" element={<PlaceholderPage title="Qəbələ Turları" />} />

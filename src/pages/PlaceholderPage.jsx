@@ -18,22 +18,22 @@ const ContactPage = () => (
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12">Əlaqə</h1>
         <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Bizimlə əlaqə saxlayın</h2>
-                <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                <h2 className="text-2xl md:text-3xl font-bold text-white-800 mb-6">Bizimlə əlaqə saxlayın</h2>
+                <p className="text-lg text-white-600 mb-8 leading-relaxed">
                     Hər hansı bir sualınız, təklifiniz və ya sifarişlə bağlı müraciətiniz varsa, bizə yazın və ya zəng edin. Sizə yardım etməkdən məmnun olarıq.
                 </p>
                 <div className="space-y-6">
                     <div className="flex items-center space-x-4">
                         <Phone className="text-blue-600" size={24} />
-                        <span className="text-gray-700 text-lg">+994 12 345 67 89</span>
+                        <span className="text-white-700 text-lg">+994 12 345 67 89</span>
                     </div>
                     <div className="flex items-center space-x-4">
                         <Mail className="text-blue-600" size={24} />
-                        <span className="text-gray-700 text-lg">info@sirketinizinadi.az</span>
+                        <span className="text-white-700 text-lg">info@sirketinizinadi.az</span>
                     </div>
                     <div className="flex items-center space-x-4">
                         <MapPin className="text-blue-600" size={24} />
-                        <span className="text-gray-700 text-lg">Nizami küçəsi 123, Bakı, Azərbaycan</span>
+                        <span className="text-white-700 text-lg">Nizami küçəsi 123, Bakı, Azərbaycan</span>
                     </div>
                 </div>
             </div>

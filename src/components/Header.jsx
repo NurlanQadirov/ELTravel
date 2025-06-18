@@ -24,7 +24,7 @@ const Header = () => {
   const serviceItems = [
     { name: "Hotels", path: "/services/hotels", icon: <Building size={16} /> },
     { name: "Villa and cottages", path: "/services/villas", icon: <Home size={16} /> },
-    { name: "Guide Service", path: "/services/guide", icon: <Users size={16} /> },
+    { name: "Guide Service", path: "/services/guides", icon: <Users size={16} /> },
     { name: "Transport", path: "/services/transport", icon: <Car size={16} /> },
   ];
 
