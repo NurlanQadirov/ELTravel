@@ -7,22 +7,22 @@ const HeroSlider = () => {
 
   const slides = [
     {
-      image: "/Baku.jpg",
+      image: "/Baku.webp",
       title: "Möhtəşəm Azərbaycanı Kəşf Edin",
       subtitle: "Odlar Yurdunun Qədim Gözəllikləri",
     },
     {
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      image: "/hero.webp",
       title: "Dünyanı Kəşf Edin",
       subtitle: "Unudulmaz Beynəlxalq Səyahətlər",
     },
     {
-      image: "/Baku2.jpg",
+      image: "/Baku2.webp",
       title: "Azərbaycanın Parlayan İncisi",
       subtitle: "Bakının Müasir Memarlıq Möcüzəsi",
     },
     {
-      image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80",
+      image: "/hero2.webp",
       title: "Macəra Gözləyir",
       subtitle: "Ov Turları və Açıq Hava Təcrübələri",
     },

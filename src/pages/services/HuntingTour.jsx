@@ -82,7 +82,7 @@ const HuntingTour = () => {
           {/* Şəkil */}
           <div className="hidden md:block self-stretch max-h-[400px]" data-aos="zoom-in" data-aos-delay={(features.slice(0, 2).length + 1) * 150}> {/* Şəkilə də delay əlavə edildi */}
             <img
-              src="/hunter.jpg"
+              src="/hunter.webp"
               alt="Hunter"
               className="rounded-xl object-cover w-full h-full"
             />
@@ -94,7 +94,7 @@ const HuntingTour = () => {
         {/* Şəkil solda */}
         <div data-aos="fade-right">
           <img
-            src="/hunter2.jpg"
+            src="/hunter2.webp"
             alt="Ov haqqında"
             className="rounded-xl shadow-lg w-full object-cover max-h-[500px]"
           />

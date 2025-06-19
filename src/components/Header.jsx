@@ -79,7 +79,7 @@ const Header = () => {
         <div className="container mx-auto px-4 sm:px-6 py-3">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex-shrink-0">
-              <img src="/logo.png" alt="Company Logo" className="h-10 md:h-12 w-auto" />
+              <img src="/logo.webp" alt="Company Logo" className="h-10 md:h-12 w-auto" />
             </Link>
             
             {/* DÜZƏLİŞ: Görünmə breakpoint-i `lg` olaraq dəyişdirildi */}

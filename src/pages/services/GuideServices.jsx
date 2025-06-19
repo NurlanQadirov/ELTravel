@@ -6,21 +6,21 @@ import { Users, Globe, BadgeCheck, Map } from 'lucide-react';
 const guides = [
   {
     name: "Elvin Quliyev",
-    image: "/guide1.jpg",
+    image: "/guide1.webp",
     languages: ["Azərbaycan dili", "İngilis dili", "Rus dili"],
     experience: "5 il təcrübə",
     specialty: "Tarixi və şəhər turları üzrə ixtisaslaşmışdır.",
   },
   {
     name: "Aytac Məmmədova",
-    image: "/guide2.jpg",
+    image: "/guide2.webp",
     languages: ["Azərbaycan dili", "İngilis dili", "Ərəb dili"],
     experience: "3 il təcrübə",
     specialty: "Dağ və təbiət turları üzrə bələdçi.",
   },
   {
     name: "Rauf Əliyev",
-    image: "/guide3.jpg",
+    image: "/guide3.webp",
     languages: ["Azərbaycan dili", "Fransız dili", "İngilis dili"],
     experience: "6 il təcrübə",
     specialty: "Mədəniyyət və muzey turları üzrə təlim keçmişdir.",

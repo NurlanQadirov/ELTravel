@@ -11,17 +11,17 @@ const VillaAndCottages = () => {
     {
       title: "Qəbələ Dağ Villası",
       description: "Təbiət qoynunda yerləşən bu geniş villa ailəvi istirahət üçün ideal seçimdir. Özəl hovuz, dağ mənzərəsi və sakitlik burada sizi gözləyir.",
-      image: "/villa1.jpg",
+      image: "/villa1.webp",
     },
     {
       title: "Şəki Bağ Evi",
       description: "Tarixi memarlıq və müasir rahatlığın birləşdiyi bu bağ evi, şəhərdən uzaqlaşmaq və təbiətin səsində dincəlmək üçün əla məkandır.",
-      image: "/villa2.jpg",
+      image: "/villa2.webp",
     },
     {
       title: "İsmayıllı Eco-Cottage",
       description: "Tamamilə təbii materiallardan inşa olunmuş, ağaclarla əhatələnmiş bu kottec ekoturizm sevənlər üçün nəzərdə tutulub.",
-      image: "/villa3.jpg",
+      image: "/villa3.webp",
     },
   ];
 

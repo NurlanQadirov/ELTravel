@@ -4,17 +4,17 @@ const TourCategories = () => {
   const categories = [
     {
       title: "Daxili Turlar",
-      image: "/daxiliTur.jpg",
+      image: "/daxiliTur.webp",
       description: "Azərbaycanın gizli incilərini daxili turlarımızla kəşf edin."
     },
     {
       title: "Xarici Turlar",
-      image: "/xariciTur.jpg",
+      image: "/xariciTur.webp",
       description: "Dünyanı kəşf edin."
     },
     {
       title: "Ov Turları",
-      image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "/ovTurlari.webp",
       description: "Təbiətin qoynunda həyəcanverici ov macəraları yaşayın."
     }
   ];

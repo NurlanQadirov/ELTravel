@@ -26,7 +26,7 @@ const AboutSection = () => {
 
           <div data-aos="fade-left" className="relative overflow-hidden rounded-2xl shadow-xl">
             <img
-              src="/Turizm.jpg"
+              src="/Turizm.webp"
               alt="About Us"
               className="rounded-2xl w-full h-80 md:h-96 object-cover transition-transform duration-500 hover:scale-105"
             />
@@ -39,7 +39,7 @@ const AboutSection = () => {
           {/* Şəkil solda */}
           <div data-aos="fade-right" className="relative overflow-hidden rounded-2xl shadow-xl order-1 md:order-none">
             <img
-              src="/plane.jpg" // istədiyin şəkli bu adla qoy, ya da dəyiş
+              src="/plane.webp" // istədiyin şəkli bu adla qoy, ya da dəyiş
               alt="Niyə bizi seçməlisiniz?"
               className="rounded-2xl w-full h-80 md:h-96 object-cover transition-transform duration-500 hover:scale-105"
             />

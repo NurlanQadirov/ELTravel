@@ -25,7 +25,7 @@ const HotelsPage = () => {
 >
   <div className="relative w-full h-56 overflow-hidden">
     <img
-      src="/hotel1.jpg"
+      src="/hotel1.webp"
       alt="Hotel 1"
       className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
     />
@@ -48,7 +48,7 @@ const HotelsPage = () => {
 >
   <div className="relative w-full h-56 overflow-hidden">
     <img
-      src="/hotel2.jpg"
+      src="/hotel2.webp"
       alt="Hotel 2"
       className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
     />
@@ -73,7 +73,7 @@ const HotelsPage = () => {
 >
   <div className="relative w-full h-56 overflow-hidden">
     <img
-      src="/hotel3.jpg"
+      src="/hotel3.webp"
       alt="Hotel 3"
       className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
     />
