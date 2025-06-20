@@ -1,3 +1,5 @@
+// AnimatedSection.jsx
+
 import React, { useState, useEffect, useRef } from 'react';
 
 const useIntersectionObserver = (options) => {
@@ -7,17 +9,21 @@ const useIntersectionObserver = (options) => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          setIntersecting(true);
-          observer.disconnect();
-        }
+        // DƏYİŞİKLİK: Komponentin görünmə vəziyyətini dinamik olaraq təyin edirik.
+        // Ekrana daxil olanda 'true', çıxanda 'false' olur.
+        setIntersecting(entry.isIntersecting);
       },
       options
     );
+
+    // DƏYİŞİKLİK: 'observer.disconnect()' sətri silindiyi üçün izləyici artıq dayanmır.
+
     if (ref.current) {
       observer.observe(ref.current);
     }
+
     return () => {
+      // Komponent yox olduqda izləyicini təmizləyirik.
       if (ref.current) {
         observer.unobserve(ref.current);
       }
@@ -30,6 +36,7 @@ const useIntersectionObserver = (options) => {
 const AnimatedSection = ({ children, animationType = 'fade-up' }) => {
   const [ref, isIntersecting] = useIntersectionObserver({ threshold: 0.1 });
 
+  // Sizin bu funksiyanız olduğu kimi mükəmməl işləyir, dəyişikliyə ehtiyac yoxdur.
   const getAnimationClasses = () => {
     const baseClass = 'transition-all duration-1000';
     let animationClass;
